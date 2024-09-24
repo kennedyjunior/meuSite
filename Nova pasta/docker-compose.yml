@@ -1,0 +1,9 @@
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: meu-site # Nome do container
+    ports:
+      - "8080:8080"
